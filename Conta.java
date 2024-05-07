@@ -28,6 +28,15 @@ class Conta {
     public void abrirConta() {
         System.out.println("Conta aberta para o cliente " + cliente.getNome() + ".");
     }
-    //Add transações
+    
+
+    public void gerarRelatorioTransacoes() {
+        System.out.println("Relatório de transações para o cliente " + cliente.getNome() + ":");
+        for (Transacao transacao : transacoes) {
+            System.out.println(transacao.getDescricao() + ": " + transacao.getValor());
+        }
+        System.out.println("Saldo atual: " + saldo);
+        this.transacoes = new ArrayList<>();
+    }
 
 }

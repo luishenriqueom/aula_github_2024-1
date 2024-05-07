@@ -28,7 +28,6 @@ class Conta {
     public void abrirConta() {
         System.out.println("Conta aberta para o cliente " + cliente.getNome() + ".");
     }
-
     //Add transações
 
 }

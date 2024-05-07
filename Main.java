@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
@@ -7,5 +8,6 @@ public class Main {
 		System.out.println(mainMenu.getSelection() + "foi selecionada");
 		System.out.println("Fim");
 	}
+
 
 }

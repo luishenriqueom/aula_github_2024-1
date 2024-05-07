@@ -4,7 +4,6 @@ class Conta {
     private Cliente cliente;
     private double saldo;
     private ArrayList<Transacao> transacoes;
-    private ArrayList<Transacao> transacoes;
 
     public Conta(Cliente cliente) {
         this.cliente = cliente;
